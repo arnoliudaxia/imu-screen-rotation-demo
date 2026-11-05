@@ -12,7 +12,7 @@ from .worker import Worker
 class App(tk.Tk):
     def __init__(self):
         super().__init__()
-        self.title('IMU 串口监视器')
+        self.title('WHEELTEC IMU 串口监视器')
         self.geometry('1100x740')
         self.minsize(850, 620)
         self.events = queue.Queue()

@@ -12,7 +12,7 @@ from .screen_orientation import Orientation, quaternion_up, acceleration_up, sim
 class PhoneDemo(tk.Tk):
     def __init__(self):
         super().__init__()
-        self.title('手机自动转屏 Demo')
+        self.title('WHEELTEC IMU · 手机自动转屏 Demo')
         self.geometry('1050x720')
         self.minsize(900, 650)
         self.events = queue.Queue(); self.worker = None; self.closing = False

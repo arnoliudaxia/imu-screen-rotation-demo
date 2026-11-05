@@ -1,6 +1,6 @@
-# Windows IMU 串口监视器
+# WHEELTEC IMU 串口监视器（Windows）
 
-Python / tkinter 只读 GUI；唯一第三方运行依赖为 pyserial。支持自动识别 **FDILink** 和 **YESENSE 59 53 输出帧**，不发送命令、不配置设备、不自动尝试波特率。Canvas 绘制透视线框和滚动曲线，不需要 NumPy、OpenGL 等。
+面向 **WHEELTEC IMU** 的 Python / tkinter 只读监视工具，附带手机屏幕自动转向 Demo；非官方软件。唯一第三方运行依赖为 pyserial。支持自动识别 **FDILink** 和 **YESENSE 59 53 输出帧**，不发送命令、不配置设备、不自动尝试波特率。Canvas 绘制透视线框和滚动曲线，不需要 NumPy、OpenGL 等。
 
 ## 使用
 
