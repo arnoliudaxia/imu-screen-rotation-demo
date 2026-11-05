@@ -1,0 +1,6 @@
+[project]
+name = "imu-reader-gui"
+version = "0.1.0"
+description = "Read-only FDILink / YESENSE serial IMU monitor"
+requires-python = ">=3.10"
+dependencies = ["pyserial>=3.5,<4"]

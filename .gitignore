@@ -1,0 +1,25 @@
+# Python / local environment
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+
+# Device recordings, local analysis and desktop screenshots
+*.csv
+analysis_66/
+*.png
+*.jpg
+*.jpeg
+完成报告.md
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
